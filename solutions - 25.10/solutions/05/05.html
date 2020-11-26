@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form>
+    <article>
+        <fieldset>
+            <legend>User information</legend>
+            <p>
+                <label for="username">Username: </label>
+                <input type="text" id="username" name="username" required>
+            </p>
+            <p>
+                <label for="password">Password: </label>
+                <input type="text" id="password" name="username" required>
+            </p>
+        </fieldset>
+    </article>
+
+    <article style="padding-top: 10px">
+        <fieldset>
+            <legend>Personal information</legend>
+            <p>
+                <label for="first name">First name: <br></label>
+                <input type="text" id="first name" name="username" required>
+            </p>
+            <p>
+                <label for="last name">Last name: <br></label>
+                <input type="text" id="last name" name="username" required>
+            </p>
+            <p>
+                <input type="radio" id="female" name="radio" value="female">
+                <label for="female">Male</label>
+                <input type="radio" id="male" name="radio" value="male">
+                <label for="male">Female</label>
+            </p>
+            <p>
+                <label for="favorite food">Favorite food: </label>
+                <select id="favorite food" name="favorite food">
+                    <option value="chocolate">Chocolate</option>
+                    <option value="chocolate">Chocolate :)</option>
+                    <option value="chocolate">Chocolate &lt;3</option>
+                </select>
+            </p>
+        </fieldset>
+    </article>
+    <p>
+        <input type="submit" value="Register" name="register">
+        <input type="reset" value="Reset" name="reset">
+    </p>
+</form>
+</body>
+</html>
