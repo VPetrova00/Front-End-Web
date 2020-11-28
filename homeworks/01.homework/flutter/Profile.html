@@ -10,9 +10,8 @@
 <nav>
     <h1>Flutter</h1>
     <form action="#" class="navSearch">
-        <input type="text" placeholder="Search" name="search" class="search">
+        <input type="text" placeholder="Search" name="search" class="searchInput">
         <button><i class="fas fa-search"></i></button>
-        <!--<i class="fas fa-comment"></i>-->
     </form>
 </nav>
 <main>
@@ -24,26 +23,56 @@
         <section class="asideSecondSection">
             <table class="profileTable">
                 <tr>
-                    <td>Posts</td>
-                    <td>Reactions</td>
+                    <td class="h">Posts</td>
+                    <td class="h">Reactions</td>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>7</td>
+                    <td class="numbers">1</td>
+                    <td class="numbers">7</td>
                 </tr>
             </table>
-            <button class="logoutButton">Log Out</button>
+            <button class="logoutButton"><a href="LoginPage.html">Log Out</a></button>
         </section>
     </aside>
     <section class="mainSection">
         <section class="sect">
-
+            <img src="profile.webp">
+            <input type="text" placeholder="Say something" name="say" class="say">
+            <button><i class="fas fa-comment"></i></button>
         </section>
         <section class="sect">
-
+            <img src="profile.webp">
+            <section>
+                <section class="nameSection">
+                    <ul>
+                        <li>Ivan Ivanov</li>
+                        <li><span>&#8226;</span> last month</li>
+                    </ul>
+                    <i class="fas fa-times"></i>
+                </section>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nibh vitae elit elementum
+                    vestibulum. Duis dictum tempus placerat. Vestibulum posuere cursus maximus. Suspendisse nec nunc a quam
+                    pulvinar venenatis. In hac habitasse platea dictumst. Integer eget mauris vel ligula porta eleifend.
+                </p>
+            </section>
         </section>
         <section class="sect">
-
+            <img src="profile.webp">
+            <section>
+                <section class="nameSection">
+                    <ul>
+                        <li>Martin</li>
+                        <li><span>&#8226;</span> 0 seconds ago</li>
+                    </ul>
+                    <i class="fas fa-times"></i>
+                </section>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis nibh vitae elit elementum
+                    vestibulum. Duis dictum tempus placerat. Vestibulum posuere cursus maximus. Suspendisse nec nunc a quam
+                    pulvinar venenatis. In hac habitasse platea dictumst. Integer eget mauris vel ligula porta eleifend.
+                </p>
+            </section>
         </section>
     </section>
 </main>
