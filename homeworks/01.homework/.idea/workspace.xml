@@ -34,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1kkw8ZpWpHDyqc40s0PTcZYUTkn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,7 +46,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,6 +67,7 @@
       <workItem from="1606257740068" duration="4384000" />
       <workItem from="1606297755648" duration="24846000" />
       <workItem from="1606353611670" duration="634000" />
+      <workItem from="1606576435193" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1606353692905</created>
@@ -89,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
@@ -99,6 +103,10 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1280.680@0.40.1280.680" timestamp="1606338110689" />
+    <state x="142" y="40" key="SettingsEditor" timestamp="1606576458459">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1606576458459" />
     <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1606353704039">
       <screen x="0" y="40" width="1280" height="680" />
     </state>

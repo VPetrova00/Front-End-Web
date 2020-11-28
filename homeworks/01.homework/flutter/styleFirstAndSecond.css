@@ -10,7 +10,6 @@ html {
 body {
     font-size: 16px;
     width: auto;
-    /*max-width: 32rem;*/
     background: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
     margin: 0;
 }
@@ -27,8 +26,8 @@ body {
     background: white;
     border-radius: 5px;
     padding: 2.5rem;
-    /*max-width: 15rem;*/
-    width: 200px;
+    width: 250px;
+    /*height: 280px;*/
 }
 
 .form h1 {
@@ -40,11 +39,8 @@ body {
     color: #848694;
 }
 
-input {
-    display: block;
-}
-
 input[type=text] {
+    display: block;
     position: relative;
     width: 100%;
     border: none;
@@ -58,9 +54,8 @@ input[type=text]:focus {
 }
 
 input[type=button] {
-    margin-top: 20px;
-    float: right;
     display: block;
+    margin-top: 20px;
     border-radius: 50px;
     border: none;
     color: white;
@@ -80,11 +75,17 @@ input[type=button]:focus {
 }
 
 a {
+    text-align: center;
     text-decoration: none;
     font-size: 12px;
     position:relative;
-    float: right;
+    margin-top: 30px;
     display: block;
+}
+
+.buttons {
+    margin-top: 20px;
+    float: right;
 }
 
 @media all and (max-width: 890px) {
